@@ -1,4 +1,5 @@
 // Design
+// *Note: Verilog primitive gates place outputs before inputs
 module nand_not (input a, output z);
   nand(z,a,a);
 endmodule
